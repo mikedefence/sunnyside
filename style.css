@@ -1,0 +1,655 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------ header styling -----------*/
+
+header{
+    width: 100%;
+    height:100vh;
+    background-image: url(images/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2.5rem 3rem;
+}
+
+header{
+    color: white;
+}
+
+header h1{
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+
+header h2{
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-family: 'josefin sans'
+}
+header h2:hover{
+    color: #18536c;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.arrow{
+    position: relative;
+    left: 38rem;
+    top: 6rem;
+}
+
+.arrow:hover{
+    transition: 1s;
+    transform: scale(1.2) translateY(-15px);
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flip{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+}
+nav li a:hover{
+   color: rgba(0, 0, 0, 0.5);
+   text-decoration: underline;
+}
+
+nav .btn{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.61);
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 6px 15px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+nav .btn:hover{
+    color: white;
+    background-color: #8cd9ff;
+    transition: .4s;
+    transform: scale(1.2);
+}
+
+nav .btn-mobile{
+    width: 100%;
+}
+nav .btn-mobile img{
+    width: 1%;
+    position: relative;
+    left: -12rem;
+}
+
+
+/*------------- container styling -------------*/
+/* section-a */
+
+.transform{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.transform-lettering{
+    max-width: 50%;
+    padding: 150px;
+    align-items: center;
+    text-align: center;
+    text-align: start;
+}
+
+.transform h3{
+    font-size: 30px;
+    line-height:30px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.transform h3:hover {
+    color: #ffd001;
+}
+ 
+.transform p{
+    margin-bottom: 2rem;
+}
+
+.transform .btn1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.transform .btn1:hover {
+    color: #ffd001;
+}
+
+.transform div a {
+    padding: 0px 6px;
+    border-bottom: 5px solid #ffd001;
+    border-radius: 8px;
+}
+
+.transform-imgage{
+    max-width: 50%;
+}
+.transform img{
+    max-width: 100%;
+    height: 100%;
+}
+
+
+.standout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.standout-lettering {
+    max-width: 50%;
+    padding: 150px;
+    align-items: center;
+    text-align: center;
+    text-align: start;
+}
+
+.standout h3 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.standout h3:hover{
+    color: #fd7867;
+}
+.standout p {
+    margin-bottom: 2rem;
+}
+
+.standout .btn1 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.standout .btn1:hover {
+    color: #fd7867;
+}
+
+.standout div a{
+    padding:0px 6px;
+    border-bottom: 5px solid #fd7867 ;
+    border-radius: 8px;
+}
+
+.standout-imgage {
+    max-width: 50%;
+}
+
+.standout img {
+    max-width: 100%;
+    height: 100%;
+}
+
+
+
+/*----- section-b -------*/
+
+section-b{
+    width: 100%;
+    display: flex;
+}
+
+.graphic{
+    max-width: 50%;
+    height: 624px;
+    background-image: url(images/image-graphic.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.graphic h3, .pg{
+    color: #25564c;
+    position: relative;
+    top: 25rem;
+}
+
+.graphic h3{
+    text-transform: capitalize;
+    font-size:30px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.graphic h3:hover {
+    color: white;
+}
+
+.graphic {
+    padding: 0 100px;
+}
+
+
+.photography {
+    max-width: 50%;
+    height: 624px;
+    background-image: url(images/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.photography h3, .ph{
+    color: #18536c;
+    position: relative;
+    top: 25rem;
+}
+.photography h3:hover{
+    color: white;
+}
+
+.photo{
+    color: #18536c;
+    text-transform: capitalize;
+    font-size:30px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+ .photography p{
+    padding: 0 100px;
+}
+
+
+
+/*-------------- TESTIMONIAL styling -------------*/
+
+.testimonial{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.testimonial h4{
+    margin-bottom: 5rem;
+    color: rgb(172, 172, 172);
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.testimonial h4:hover{
+    color: #90dac5;
+    cursor: pointer;
+}
+
+.container-test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-test img{
+    width: 30%;
+   border-radius: 50%;
+}
+
+.container-test div{
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.container-test p{
+    font-size: 13px;
+    color: rgba(8, 8, 8, 0.767);
+    margin: 30px 0;
+}
+
+.container-test span{
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+}
+.thomas{
+    margin-bottom: .4rem;
+}
+.Jennie{
+   position: relative;
+   top: 4px;
+}
+
+
+
+/*--------------- Gallery styling ---------------*/
+
+.gallery{
+    width: 100%;
+    background-color: #90dac5;
+}
+
+.gallery-content{
+    width: 100%;
+    display: flex;
+}
+
+.gallery-content img{
+    width: 100%;
+}
+
+
+/*------------- Footer styling ---------------*/
+
+footer{
+    height: 300px;
+    height: 53vh;
+    color: #25564c;
+    padding: 50px 0;
+   text-align: center;
+   background-color: #90dac5;
+}
+
+footer h3{
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+footer h3:hover{
+    color: white;
+    cursor: pointer;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 5rem;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #25564c;
+}
+footer ul li a:hover{
+    color:white;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.social img{
+    width: 40%;
+    transition: 0.5s;
+}
+.social img:hover{
+    filter: invert(1);
+    transform: scale(1) translateY(-15px);
+}
+
+
+.more {
+    width: 100%;
+    margin-left: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+/* ------------ media styling ------------*/
+
+@media screen and (max-width:600px){
+    
+    h1{
+        font-size: 1.4rem;
+        position: relative;
+        right: 1rem;
+        padding-top: 1rem;
+    }
+
+    header h2{
+        letter-spacing: 1px;
+        font-size: 28px;
+    }
+
+    nav ul li a{
+        font-size: 1rem;
+    }
+
+    header ul,
+    header .btn{
+        display: none;
+    }
+
+    .more{
+    position: relative;
+    left: 3rem;
+    padding-top: 1rem;
+    }
+
+    .arrow{
+        width: 8%;
+        position: relative;
+        left: 11.5rem;
+        top: 5rem;
+    }
+}
+
+ @media screen and (max-width:800px) {
+
+    .more{
+        display: block;
+    }
+
+    .transform{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 8rem;
+    }
+    .transform-image{
+        order: -1;
+    }
+    .transform-lettering {
+        max-width: 100%;
+        padding: 2rem 5rem ;
+        text-align: center;
+    }
+    .transform h3 {
+        font-size: 30px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .transform p {
+        margin-bottom: 2rem;
+    }
+
+
+    .standout{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 10rem;
+    }
+    .standout img{
+        max-width: 100%;
+    }
+  .standout-lettering {
+    max-width: 100%;
+    padding: .4rem 5rem;
+    text-align: center;
+  }
+    .standout h3 {
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+    .standout p{
+        margin-bottom: 2rem;
+    }
+
+
+
+
+    section-b {
+        width: 100%;
+        display: block;
+    }
+
+    .graphic {
+        max-width: 100%;
+        background-image: url(/images/image-graphic.jpg);
+    }
+    .graphic h3,
+        .pg {
+        position: relative;
+        top: 23rem;
+    }
+    .graphic h3 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+
+    .photography {
+        max-width: 100%;
+        background-image: url(/images/image-photography.jpg);
+    }
+    .photography h3,
+    .ph {
+        position: relative;
+        top: 25rem;
+    }
+    .photography p {
+        padding: 0 100px;
+    }
+
+
+
+    .testimonial {
+        width: 100%;
+        padding: 80px;
+        margin-bottom: 30rem;
+    }
+    .testimonial h4 {
+        margin-bottom: 3.5rem;
+        letter-spacing: 2px;
+    }
+    .container-test {
+        display: block;
+    }
+    .container-test div {
+        margin-bottom: 4rem;
+    }
+    .container-test p {
+        margin: 20px 0;
+    }
+
+
+
+    .gallery-content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery-content img {
+        width: 100%;
+    }
+    .cone,.cube{
+        position: relative;
+        bottom: .5rem;
+    }
+
+
+
+    footer {
+        height: 340px;
+        padding: 50px 0;
+    }
+    footer h3 {
+        font-size: 25px;
+        letter-spacing: .2px;
+    }
+    footer ul {
+        gap: 2.5rem;
+    }
+    .social div{
+        margin-right: -.5rem;
+    }
+
+ }
+
+ @media screen  and (max-width:375px) {
+    .arrow{
+        width: 10%;
+        position: absolute;
+        top: 19rem;
+    }
+
+
+        section-b {
+            width: 100%;
+            display: block;
+        }
+    
+        .graphic {
+            max-width: 100%;
+            background-image: url(/images/image-graphic.jpg);
+        }
+
+        .graphic h3,
+        .pg {
+            position: relative;
+            top: 22rem;
+            line-height: 1.3rem;
+        }
+    
+        .graphic h3 {
+            font-size: 30px;
+            margin-bottom: 1rem;
+            line-height: 2rem;
+        }
+
+        .photography h3,
+        .ph {
+            position: relative;
+            top: 25rem;
+            line-height: 1.3rem;
+        }
+        
+        .photography p {
+            padding: 0 100px;
+        }
+ }
+
+
+
+
+
